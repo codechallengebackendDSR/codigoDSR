@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "179e75d9-4561-48ee-9a66-fcc11f1cc976",
+		"name": "Personal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "transaciones",
+			"item": [
+				{
+					"name": "[LOCAL] Create TRANS",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "es",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhZjc2ZDRlOC02NDAyLTQ3ZjUtYTc1NC0yN2IxMDcwOTM2ODciLCJleHAiOjE1NzUyMDI0MDQsIm5iZiI6MCwiaWF0IjoxNTc1MTk4ODA0LCJpc3MiOiJodHRwOi8vdWF0YS1pYmlzYXV0aC5jb3JwLmliZXJpYS5lcy9hdXRoL3JlYWxtcy9jb21tZXJjaWFsX3BsYXRmb3JtIiwiYXVkIjoiaWJlcmlhX3dlYiIsInN1YiI6IjY2Zjc5Yjc4LTZkNWMtNDRkNS05MzM4LTRkZjczYmEzYjU1MiIsInR5cCI6IkJlYXJlciIsImF6cCI6ImliZXJpYV93ZWIiLCJzZXNzaW9uX3N0YXRlIjoiZGJhYmYzNDUtZTU5Mi00OWY2LTk4ODktYjQ5MWU3OGQ1ZDgyIiwiY2xpZW50X3Nlc3Npb24iOiI4ZThmMzExNi05MTAyLTRlNTMtYjYyZi1lN2FiYmEyMWYyOTIiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiUk9MRV9DUkVBVEVfQ0xBSU0iLCJST0xFX01FTUJFUiIsIlJPTEVfQ0xJRU5UX1dFQiIsIlJPTEVfT1JNIiwiUk9MRV9QTVQiLCJST0xFX0JQTSIsIlJPTEVfQVZNIiwiUk9MRV9MT0MiLCJST0xFX0NIRUNLX1BJUlNUQVRVUyIsIlJPTEVfQURWTSIsIlJPTEVfUkVRVUVTVF9TVVBQT1JUX0NBTEwiLCJST0xFX0NVU1QiLCJST0xFX1BBQ0MiLCJST0xFX0lEQ19TRUFSQ0hfQ1VTVE9NRVIiLCJST0xFX1NFQVRTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBRyIsIlJPTEVfUkVUUklFVkVfREVMQVlFRF9CQUciLCJST0xFX0FQSU0iLCJST0xFX0dFVF9DTEFJTV9TVEFUVVMiLCJST0xFX1JFVFJJRVZFX0RFTEFZRURfQkFHX1JFVElSRURfUkVDT1JEIiwiUk9MRV9SRVFVRVNUX0dDX0JBR19DTEFJTSIsIlJPTEVfRkFWTCIsIlJPTEVfUFJNIiwiUk9MRV9GQVNTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBR19SRVRJUkVEX1JFQ09SRCIsIlJPTEVfU1JWIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJ2aWV3LXByb2ZpbGUiLCJtYW5hZ2UtYWNjb3VudCJdfX0sImVtYWlsIjoic2VydmljZS1hY2NvdW50LWliZXJpYV93ZWJAcGxhY2Vob2xkZXIub3JnIiwibmFtZSI6IiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1pYmVyaWFfd2ViIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4yMS4xODAuOSIsImNsaWVudEhvc3QiOiIxNzIuMjEuMTgwLjkiLCJjbGllbnRJZCI6ImliZXJpYV93ZWIifQ.JTKUxpJ9FBkLm_G-qjFpTjCFA_wXUFv5eaE7o2prdZ6-s5axx_o2vaXxk1QIv0_7Hwo9d-91f3X3RVRvoFQ30-pVGlVrCXwSYjRi-ssIHqhxsTeiZ73N-Jkh9CTjLw97kYzS0s0_HDTiNmaOC-shW-I4ag0qJPocnB-i97PDKszfZQcsgdC4S4fZq5c8pF6wHWXreASElzJF2ke0aWtnIPt20XURo1NF3kOr9C_8GYM7MPZt7Lpo87spQ6nBPrzZ6ycQJ_fx_iOCzWu8C72vLPDhUg6wohFFeNc4fm0cWEmNTHxawI-yu2W820_4lupd-_3O9Y_sVUV4BuA13N13eA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reference\": \"REFERENCE1\",\r\n    \"account_iban\": \"ISBAN\",\r\n    \"date\": \"2019-07-16T16:55:42.000Z\",\r\n    \"amount\": 1000,\r\n    \"fee\":-100,\r\n    \"description\": \"Jacinto 3\"\r\n \r\n}"
+						},
+						"url": "http://localhost:8080/create"
+					},
+					"response": []
+				},
+				{
+					"name": "Search",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "es"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhZjc2ZDRlOC02NDAyLTQ3ZjUtYTc1NC0yN2IxMDcwOTM2ODciLCJleHAiOjE1NzUyMDI0MDQsIm5iZiI6MCwiaWF0IjoxNTc1MTk4ODA0LCJpc3MiOiJodHRwOi8vdWF0YS1pYmlzYXV0aC5jb3JwLmliZXJpYS5lcy9hdXRoL3JlYWxtcy9jb21tZXJjaWFsX3BsYXRmb3JtIiwiYXVkIjoiaWJlcmlhX3dlYiIsInN1YiI6IjY2Zjc5Yjc4LTZkNWMtNDRkNS05MzM4LTRkZjczYmEzYjU1MiIsInR5cCI6IkJlYXJlciIsImF6cCI6ImliZXJpYV93ZWIiLCJzZXNzaW9uX3N0YXRlIjoiZGJhYmYzNDUtZTU5Mi00OWY2LTk4ODktYjQ5MWU3OGQ1ZDgyIiwiY2xpZW50X3Nlc3Npb24iOiI4ZThmMzExNi05MTAyLTRlNTMtYjYyZi1lN2FiYmEyMWYyOTIiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiUk9MRV9DUkVBVEVfQ0xBSU0iLCJST0xFX01FTUJFUiIsIlJPTEVfQ0xJRU5UX1dFQiIsIlJPTEVfT1JNIiwiUk9MRV9QTVQiLCJST0xFX0JQTSIsIlJPTEVfQVZNIiwiUk9MRV9MT0MiLCJST0xFX0NIRUNLX1BJUlNUQVRVUyIsIlJPTEVfQURWTSIsIlJPTEVfUkVRVUVTVF9TVVBQT1JUX0NBTEwiLCJST0xFX0NVU1QiLCJST0xFX1BBQ0MiLCJST0xFX0lEQ19TRUFSQ0hfQ1VTVE9NRVIiLCJST0xFX1NFQVRTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBRyIsIlJPTEVfUkVUUklFVkVfREVMQVlFRF9CQUciLCJST0xFX0FQSU0iLCJST0xFX0dFVF9DTEFJTV9TVEFUVVMiLCJST0xFX1JFVFJJRVZFX0RFTEFZRURfQkFHX1JFVElSRURfUkVDT1JEIiwiUk9MRV9SRVFVRVNUX0dDX0JBR19DTEFJTSIsIlJPTEVfRkFWTCIsIlJPTEVfUFJNIiwiUk9MRV9GQVNTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBR19SRVRJUkVEX1JFQ09SRCIsIlJPTEVfU1JWIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJ2aWV3LXByb2ZpbGUiLCJtYW5hZ2UtYWNjb3VudCJdfX0sImVtYWlsIjoic2VydmljZS1hY2NvdW50LWliZXJpYV93ZWJAcGxhY2Vob2xkZXIub3JnIiwibmFtZSI6IiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1pYmVyaWFfd2ViIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4yMS4xODAuOSIsImNsaWVudEhvc3QiOiIxNzIuMjEuMTgwLjkiLCJjbGllbnRJZCI6ImliZXJpYV93ZWIifQ.JTKUxpJ9FBkLm_G-qjFpTjCFA_wXUFv5eaE7o2prdZ6-s5axx_o2vaXxk1QIv0_7Hwo9d-91f3X3RVRvoFQ30-pVGlVrCXwSYjRi-ssIHqhxsTeiZ73N-Jkh9CTjLw97kYzS0s0_HDTiNmaOC-shW-I4ag0qJPocnB-i97PDKszfZQcsgdC4S4fZq5c8pF6wHWXreASElzJF2ke0aWtnIPt20XURo1NF3kOr9C_8GYM7MPZt7Lpo87spQ6nBPrzZ6ycQJ_fx_iOCzWu8C72vLPDhUg6wohFFeNc4fm0cWEmNTHxawI-yu2W820_4lupd-_3O9Y_sVUV4BuA13N13eA"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reference\": \"REFERENCE\",\r\n    \"sort\": \"ASC\"\r\n}"
+						},
+						"url": "http://localhost:8080/create"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Status",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept-Language",
+								"type": "text",
+								"value": "es"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiJhZjc2ZDRlOC02NDAyLTQ3ZjUtYTc1NC0yN2IxMDcwOTM2ODciLCJleHAiOjE1NzUyMDI0MDQsIm5iZiI6MCwiaWF0IjoxNTc1MTk4ODA0LCJpc3MiOiJodHRwOi8vdWF0YS1pYmlzYXV0aC5jb3JwLmliZXJpYS5lcy9hdXRoL3JlYWxtcy9jb21tZXJjaWFsX3BsYXRmb3JtIiwiYXVkIjoiaWJlcmlhX3dlYiIsInN1YiI6IjY2Zjc5Yjc4LTZkNWMtNDRkNS05MzM4LTRkZjczYmEzYjU1MiIsInR5cCI6IkJlYXJlciIsImF6cCI6ImliZXJpYV93ZWIiLCJzZXNzaW9uX3N0YXRlIjoiZGJhYmYzNDUtZTU5Mi00OWY2LTk4ODktYjQ5MWU3OGQ1ZDgyIiwiY2xpZW50X3Nlc3Npb24iOiI4ZThmMzExNi05MTAyLTRlNTMtYjYyZi1lN2FiYmEyMWYyOTIiLCJhbGxvd2VkLW9yaWdpbnMiOltdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiUk9MRV9DUkVBVEVfQ0xBSU0iLCJST0xFX01FTUJFUiIsIlJPTEVfQ0xJRU5UX1dFQiIsIlJPTEVfT1JNIiwiUk9MRV9QTVQiLCJST0xFX0JQTSIsIlJPTEVfQVZNIiwiUk9MRV9MT0MiLCJST0xFX0NIRUNLX1BJUlNUQVRVUyIsIlJPTEVfQURWTSIsIlJPTEVfUkVRVUVTVF9TVVBQT1JUX0NBTEwiLCJST0xFX0NVU1QiLCJST0xFX1BBQ0MiLCJST0xFX0lEQ19TRUFSQ0hfQ1VTVE9NRVIiLCJST0xFX1NFQVRTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBRyIsIlJPTEVfUkVUUklFVkVfREVMQVlFRF9CQUciLCJST0xFX0FQSU0iLCJST0xFX0dFVF9DTEFJTV9TVEFUVVMiLCJST0xFX1JFVFJJRVZFX0RFTEFZRURfQkFHX1JFVElSRURfUkVDT1JEIiwiUk9MRV9SRVFVRVNUX0dDX0JBR19DTEFJTSIsIlJPTEVfRkFWTCIsIlJPTEVfUFJNIiwiUk9MRV9GQVNTIiwiUk9MRV9SRVRSSUVWRV9EQU1BR0VEX0JBR19SRVRJUkVEX1JFQ09SRCIsIlJPTEVfU1JWIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJ2aWV3LXByb2ZpbGUiLCJtYW5hZ2UtYWNjb3VudCJdfX0sImVtYWlsIjoic2VydmljZS1hY2NvdW50LWliZXJpYV93ZWJAcGxhY2Vob2xkZXIub3JnIiwibmFtZSI6IiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1pYmVyaWFfd2ViIiwiY2xpZW50QWRkcmVzcyI6IjE3Mi4yMS4xODAuOSIsImNsaWVudEhvc3QiOiIxNzIuMjEuMTgwLjkiLCJjbGllbnRJZCI6ImliZXJpYV93ZWIifQ.JTKUxpJ9FBkLm_G-qjFpTjCFA_wXUFv5eaE7o2prdZ6-s5axx_o2vaXxk1QIv0_7Hwo9d-91f3X3RVRvoFQ30-pVGlVrCXwSYjRi-ssIHqhxsTeiZ73N-Jkh9CTjLw97kYzS0s0_HDTiNmaOC-shW-I4ag0qJPocnB-i97PDKszfZQcsgdC4S4fZq5c8pF6wHWXreASElzJF2ke0aWtnIPt20XURo1NF3kOr9C_8GYM7MPZt7Lpo87spQ6nBPrzZ6ycQJ_fx_iOCzWu8C72vLPDhUg6wohFFeNc4fm0cWEmNTHxawI-yu2W820_4lupd-_3O9Y_sVUV4BuA13N13eA"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"reference\": \"00000A\",\r\n    \"channel\": \"CLIENT\"\r\n}"
+						},
+						"url": "http://localhost:8080/findTransactionStatus"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
